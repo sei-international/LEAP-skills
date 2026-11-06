@@ -24,7 +24,7 @@ whether an assistant may read, change or calculate the model.
 
 **Most LEAP users need nothing from this page.** LEAP installs the `leap-core` skills with the
 program and places them where Claude Code, Codex and Gemini CLI look, under your own user folder,
-the first time each LEAP version starts. The switch **Enable default LEAP AI skills** on LEAP's
+the first time each LEAP version starts. The switch **Enable LEAP AI skills** on LEAP's
 Settings, Scripts & AI tab turns them on and off. LEAP's MCP server also offers every skill as a
 prompt, so an assistant connected to LEAP can use them without any files at all. Come here when
 you want the latest skills between LEAP releases, the contributed skills in `leap-community`, or
