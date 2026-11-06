@@ -121,4 +121,8 @@ the writing rules, how to test on a sample area, and how a contribution moves fr
 
 ## License
 
-See [LICENSE](LICENSE). SEI has not yet chosen the license for these files.
+The skills in this repository are released by the Stockholm Environment Institute under the
+[Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+license (CC BY-SA 4.0): see [LICENSE](LICENSE). You may copy, change and share them, and build on
+them, as long as you credit SEI and share what you make under the same license. The license
+covers these files only, not LEAP itself.
