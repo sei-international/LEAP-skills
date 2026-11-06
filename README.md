@@ -147,3 +147,8 @@ The skills in this repository are released by the Stockholm Environment Institut
 license (CC BY-SA 4.0): see [LICENSE](LICENSE). You may copy, change and share them, and build on
 them, as long as you credit SEI and share what you make under the same license. The license
 covers these files only, not LEAP itself.
+
+## Credits
+
+This page is maintained by Charlie Heaps of SEI (charlie.heaps@sei.org). It was written and
+developed with the support of Claude by Anthropic.
