@@ -55,6 +55,21 @@ In the Claude desktop app, add the marketplace the same way in a local session, 
 To try one skill without the plugin, copy its folder into `.claude/skills/` of a project or into
 `~/.claude/skills/` and start a new session.
 
+Once installed, Claude picks the right skill from your question on its own: "what is in this
+model?" uses `leap-orientation`, "add a scenario with 30% electric cars by 2040" uses
+`leap-build-scenario`. To call one by name, type `/` and the skill name at the start of your
+message, with the request after it:
+
+```
+/leap-orientation
+/leap-results what was electricity demand in 2040 in the Mitigation scenario?
+/leap-model-review check this area before I send it
+```
+
+Typing `/` alone lists every skill and command available. If two installed plugins carry a skill
+of the same name, Claude Code asks which, or you write the plugin name in front:
+`/leap-core:leap-orientation`.
+
 ### Claude.ai and the Claude desktop app
 
 1. Zip one skill folder (for example `leap-orientation/`, with `SKILL.md` inside it). The folder
