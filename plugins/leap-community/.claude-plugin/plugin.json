@@ -1,0 +1,12 @@
+{
+  "name": "leap-community",
+  "displayName": "LEAP community skills",
+  "description": "Skills for LEAP contributed by LEAP users. New contributions ship here first and move to leap-core once they have been reviewed and tested.",
+  "author": {
+    "name": "Stockholm Environment Institute",
+    "url": "https://leap.sei.org"
+  },
+  "homepage": "https://leap.sei.org",
+  "repository": "https://github.com/sei-international/LEAP-skills",
+  "keywords": ["LEAP", "energy modeling", "emissions", "community", "MCP"]
+}

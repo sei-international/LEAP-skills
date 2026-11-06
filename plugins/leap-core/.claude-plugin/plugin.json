@@ -1,0 +1,12 @@
+{
+  "name": "leap-core",
+  "displayName": "LEAP core skills",
+  "description": "Skills that teach an AI assistant how to do energy and emissions modeling tasks in LEAP through the LEAP MCP server: orientation, expressions, scenarios, demand, transformation, results, reporting, costs, emissions, optimization and more.",
+  "author": {
+    "name": "Stockholm Environment Institute",
+    "url": "https://leap.sei.org"
+  },
+  "homepage": "https://leap.sei.org",
+  "repository": "https://github.com/sei-international/LEAP-skills",
+  "keywords": ["LEAP", "energy modeling", "emissions", "climate", "SEI", "MCP"]
+}

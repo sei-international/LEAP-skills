@@ -1,0 +1,22 @@
+{
+  "name": "LEAP-skills",
+  "description": "Skills that teach AI assistants to work with LEAP, SEI's energy and emissions modeling software, through the LEAP MCP server",
+  "owner": {
+    "name": "Stockholm Environment Institute",
+    "url": "https://leap.sei.org"
+  },
+  "plugins": [
+    {
+      "name": "leap-core",
+      "source": "./plugins/leap-core",
+      "description": "Reviewed and tested LEAP skills: orientation, expressions, scenarios, demand, transformation, results, reporting, costs, emissions, optimization, regions, uncertainty and more",
+      "category": "modeling"
+    },
+    {
+      "name": "leap-community",
+      "source": "./plugins/leap-community",
+      "description": "LEAP skills contributed by users, awaiting review and testing before they move to leap-core",
+      "category": "modeling"
+    }
+  ]
+}

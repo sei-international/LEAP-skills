@@ -1,0 +1,22 @@
+# Operating system
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Zip files made for uploading a skill
+*.zip
