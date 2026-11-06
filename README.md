@@ -22,6 +22,14 @@ whether an assistant may read, change or calculate the model.
 
 ## Using the skills
 
+**Most LEAP users need nothing from this page.** LEAP installs the `leap-core` skills with the
+program and places them where Claude Code, Codex and Gemini CLI look, under your own user folder,
+the first time each LEAP version starts. The switch **Enable default LEAP AI skills** on LEAP's
+Settings, Scripts & AI tab turns them on and off. LEAP's MCP server also offers every skill as a
+prompt, so an assistant connected to LEAP can use them without any files at all. Come here when
+you want the latest skills between LEAP releases, the contributed skills in `leap-community`, or
+to use the skills in Claude.ai.
+
 ### Claude Code
 
 The repository is a Claude Code plugin marketplace with two plugins: `leap-core` (reviewed and
@@ -41,8 +49,6 @@ claude plugin marketplace add sei-international/LEAP-skills
 claude plugin install leap-core@LEAP-skills
 ```
 
-While the repository is private you need read access to it and GitHub credentials that git on
-your computer can use without asking: `gh auth login` followed by `gh auth setup-git` is enough.
 In the Claude desktop app, add the marketplace the same way in a local session, then use the
 **+** button next to the prompt box, **Add plugins**, to install from it.
 
